@@ -10,15 +10,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="mobile_visibility">    
     <div class="navbar_container">
         <img class="logo_navbar" src="images/LOGO_PARA_WEB.svg" alt="">
     </div>
 
     <div class="news_container">
-        <div class="aviso">Aviso 1</div>
-        <div class="aviso">Aviso 2</div>
-        <div class="aviso">Aviso 3</div>
+        <div class="aviso" id="aviso_1">Aviso 1</div>
+        <div class="aviso" id="aviso_2">Aviso 2</div>
+        <div class="aviso" id="aviso_3">Aviso 3</div>
     </div>
+
+    <input type="radio" name="slider" id="aviso_1" checked>
+    <input type="radio" name="slider" id="aviso_2">
+    <input type="radio" name="slider" id="aviso_3">
+
+    <div class="items">
+        <label for="aviso_1" class="item"></label>
+        <label for="aviso_2" class="item"></label>
+        <label for="aviso_3" class="item"></label>
+    </div>
+
+
 
     <div class="foto_container">
         <div class="foto_text">BIENVENDOS A</div>
@@ -35,34 +48,34 @@
             </div>
             <div class="info_card_text_container">
                 <p>
-                    <span class="card_text_bold">TURNO MAÑANA:</span> <span class="card_text_regular">7:45 a 13:30</span>                    
+                    <span class="card_text_bold">TURNO MAÑANA:</span> <span class="card_text_regular">7:45 a 13:30 hs.</span>                    
                 </p>
-                <p class="card_text_small">Tercer y Cuarto Ciclo</p>
+                <p class="card_text_small">Tercer y Cuarto Ciclo.</p>
 
                 <div class="separator"></div>
 
                 <p>
-                    <span class="card_text_bold">TURNO TARDE:</span> <span class="card_text_regular">14:00 a 18:00</span>                    
+                    <span class="card_text_bold">TURNO TARDE:</span> <span class="card_text_regular">14:00 a 18:00 hs.</span>                    
                 </p>
-                <p class="card_text_small">Nivel Inicial, Primer y Segundo Ciclo</p>
+                <p class="card_text_small">Nivel Inicial, Primer y Segundo Ciclo.</p>
 
                 <div class="separator"></div>
                 
                 <p>
-                    <span class="card_text_bold">TURNO NOCHE:</span> <span class="card_text_regular">18:30 a 23:00</span>                    
+                    <span class="card_text_bold">TURNO NOCHE:</span> <span class="card_text_regular">18:30 a 23:00 hs.</span>                    
                 </p>
-                <p class="card_text_small">CENS (secundaria para adultos, mayores de 18 años)</p>
+                <p class="card_text_small">CENS (secundaria para adultos, mayores de 18 años).</p>
 
                 <hr class="card_line">
 
                 <p class="card_first_line">
-                    <span class="card_text_bold">ADMINISTRACIÓN MAÑANA:</span> <span class="card_text_regular">8:00 a 12:00</span>                    
+                    <span class="card_text_bold">ADMINISTRACIÓN MAÑANA:</span> <span class="card_text_regular">8:00 a 12:00 hs.</span>                    
                 </p>
 
                 <div class="separator"></div>
 
                 <p class="card_first_line">
-                    <span class="card_text_bold">ADMINISTRACIÓN TARDE:</span> <span class="card_text_regular">13:30 a 17:30</span>                    
+                    <span class="card_text_bold">ADMINISTRACIÓN TARDE:</span> <span class="card_text_regular">13:30 a 17:30 hs.</span>                    
                 </p>              
                 
 
@@ -98,7 +111,7 @@
                 <p>
                     <span class="card_text_bold">WHATSAPP:</span> <span class="card_text_regular">+54 9 2984 40-7019</span>                    
                 </p>
-                <p class="card_text_small">*Habilitado sólo para mensajes de texto, no se reciben audios, llamadas solo a los fijos.</p>
+                <p class="card_text_small">*Habilitado sólo para mensajes de texto, no se reciben audios, llamadas solo a los teléfonos fijos.</p>
 
                 <div class="separator"></div>
                 
@@ -136,11 +149,14 @@
     </div>
 
     <div class="footer_container">
-        <a class="button_1">
+        <a class="button_1" href="info_interes.html">
             INFORMACIÓN DE INTERÉS
-        </a>
-        
+        </a>        
     </div>
+    
+</div>
+
+<div class="en_construccion">EN CONSTRUCCIÓN</div>
 
 </body>
 </html>
