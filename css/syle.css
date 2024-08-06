@@ -10,6 +10,10 @@ body {
     padding: 0;     
 }
 
+a {
+    text-decoration: none;
+}
+
 @media all and (max-width:430px) {
     .en_construccion {
         display: none;
@@ -25,10 +29,9 @@ body {
         justify-content: center;
     }
 
-    .logo_navbar {    
-        height: 60%;
+    .navbar_logo_link {
+        width: 60%;
     }
-
 
     .news_container {        
         margin-bottom: 30px;
