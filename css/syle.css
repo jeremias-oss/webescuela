@@ -35,7 +35,7 @@ a {
 
     .news_container {        
         margin-bottom: 30px;
-        display: flex;
+        display: flex;                   
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
     }
@@ -47,12 +47,16 @@ a {
         width: 100%;    
         scroll-snap-align: center;     
         background-color: #FF9100;
-        justify-content: center;
-        align-items: center;
+        justify-content: center;        
+        align-items: center;        
         font-family: roboto;
         font-size: 18px;
         font-weight: 900;
         color: #FFFFFF;
+    }
+
+    .texto_aviso {
+        width: 85%;
     }
 
     .items {
@@ -127,7 +131,7 @@ a {
     .info_card {    
         border: solid rgb(0, 0, 0) 4px;
         border-radius: 20px;
-        width: 90vw;
+        width: 80vw;
         background-color: #FFFFFF;       
     }
 
