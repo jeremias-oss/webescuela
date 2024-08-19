@@ -385,7 +385,7 @@ a {
 
 
 .button_left_m, .button_right_m {  	
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     background: none;
