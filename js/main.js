@@ -22,7 +22,8 @@ window.addEventListener('load', function(){
     new Glider(document.querySelector('.glider_lista'), {
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: '.dots',        
+        dots: '.dots',
+        draggable: true,        
         arrows: {
             prev: '.button_left',
             next: '.button_right'
@@ -32,5 +33,3 @@ window.addEventListener('load', function(){
 });
 
 
-
-//probar hacer 3 clases para los gliders
