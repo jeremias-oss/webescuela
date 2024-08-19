@@ -4,10 +4,8 @@ window.addEventListener('load', function(){
         slidesToScroll: 1,
         dots: '.dots_m',
         draggable: true,
-        arrows: {
-            prev: '.button_left_m',
-            next: '.button_right_m'
-        },
+        scrollLock: true,
+
     });
     new Glider(document.querySelector('.glider_lista_t'), {
         slidesToShow: 1,
